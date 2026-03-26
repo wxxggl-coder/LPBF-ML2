@@ -90,5 +90,3 @@ This repository provides the implementation of a machine learning assisted optim
     Pearson correlation analysis.
 # Contact
 For further questions, please contact the authors.
-# Contact
-For further questions, please contact the authors.    
