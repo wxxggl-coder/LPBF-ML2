@@ -2,8 +2,8 @@
 This repository provides the implementation of a machine learning assisted optimization framework for LPBFed Ti-B/AA2024.The workflow integrates predictive model (LGBM) with GA to identify high performance composition-process parameter combinations.
 # Repository Structure
 ├── 11.csv  
-    Synthetic dataset generated to match the statistical characteristics of the original experimental data.  
-    Intended for code execution and validation only; does not represent the original raw dataset.
+    Dataset used in this study.  
+    Provides the input variables and target properties required for code execution and validation.
 
 ├── GA_iteration.py  
     Performs 100 independent GA runs on the trained LGBM strength surrogate model, records the optimal parameter combinations and predicted strength from each run, and exports statistical summaries and visualizations for stability analysis.
